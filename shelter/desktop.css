@@ -1,0 +1,59 @@
+@font-face {
+    font-family: my-font;
+    src: url("Georgia.eot") format('embedded-opentype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    height: 908px;
+    background-image: url("img/headerbg.png");
+    background-size: cover;
+}
+
+.menu{
+    display: flex;
+    width: 1200px;
+    height: 60px;
+    align-items: center;
+    gap: 573px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title h2{
+    color: #F1CDB3;
+    /* logo_title */
+    font-family: 'Georgia', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 35.2px */
+    letter-spacing: 1.92px;
+}
+
+.title p{
+    color: #FFF;
+    /* logo_subtitle */
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.3px;
+}
+
+nav>ul{
+    display: flex;
+}
