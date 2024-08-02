@@ -5,17 +5,18 @@
     }
 
     header {
-
         height: 823px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-items: flex-start;
     }
 
     .menu {
         margin: 30px 0 0 14px;
         height: 60px;
+        position: static;
+        display: flex;
+        justify-content: flex-start;
     }
 
     .description{
@@ -38,11 +39,6 @@
     }
 
     .heading>h1{
-    display: none;
-    }
-
-    .heading>h3{
-        display: block;
         width: 300px;
         color: #FFF;
         text-align: center;
@@ -157,6 +153,168 @@
         display: none;
     }
 
+/*----------section-help------------*/
 
+    .help{
+        display: flex;
+        height: 662px;
+        padding: 42px 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 42px;
+    }
+
+
+    .help>div{
+        padding: 0;
+    }
+
+    .help>div>h2{
+        width: 230px;
+        height: 64px;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        margin: 42px auto;
+    }
+
+    .list{
+        width: 290px;
+        height: 555px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+
+    .list>div{
+        width: 130px;
+        height: 86px;
+    }
+
+    .list>div>svg{
+        width: 50px;
+        height: 50px;
+    }
+
+    .list>div>h4{
+        color: #545454;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 110%; /* 16.5px */
+        letter-spacing: 0.9px;
+    }
+
+/*-----------section-donation-----------*/
+
+.donation{
+    display: flex;
+    height: 542px;
+    padding: 42px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    background: #F6F6F6;
+
+}
+
+.donation>div{
+    width: 300px;
+    height: 458px;
+    margin: 42px auto;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 42px;
+}
+
+.donation>div>img{
+    width: 260px;
+    height: 135.2px;
+}
+
+.donation>div>div{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.donation>div>div>h3{
+    width: 300px;
+    height: 64px;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.cash>p:nth-child(2){
+    width: 273px;
+    line-height: 160%;
+    letter-spacing: 0;
+}
+
+.cash>p:nth-child(4){
+    width: 280px;
+    text-align: justify;
+}
+
+
+    .donation>div>div>form>input{
+        font-size: 20px;
+        letter-spacing: 1.2px;
+    }
+
+    input::placeholder{
+        color: #545454;
+    }
+
+    /*-------------footer---------------*/
+
+    footer{
+        height: 809px;
+        background-image: url("img/footer-mobile.png");
+        background-size: cover;
+    }
+
+    .bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        margin-top: 30px;
+    }
+
+    footer>div>div:nth-child(1){
+        height: 215px;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    footer>div>div:nth-child(2) {
+        height: 215px;
+    }
+
+
+    .bottom>div>h3{
+        width: 278px;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+
+    .visit{
+        margin-left: 25px;
+    }
+
+    .bottom>img{
+        width: 260px;
+        height: 269px;
+
+    }
 
 }
