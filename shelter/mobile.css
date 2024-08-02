@@ -168,6 +168,7 @@
 
     .help>div{
         padding: 0;
+        margin-top: 42px;
     }
 
     .help>div>h2{
@@ -175,7 +176,7 @@
         height: 64px;
         font-size: 25px;
         letter-spacing: 1.5px;
-        margin: 42px auto;
+        margin-top: 42px;
     }
 
     .list{
